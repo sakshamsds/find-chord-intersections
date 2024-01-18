@@ -5,6 +5,11 @@ Given a list of chords in a circle, count the number of intersections, if any. F
 ### Input
 Two lists: one being an identifier of the chord and the other being the radian measure. The values themselves are radians and sorted in ascending order. Look below for more clarity.
 
+### Algorithm
+1. Convert the input into a list of chords (start, end)
+2. Sort the chords w.r.t starting points
+3. For every pair of chord check whether it intersects or not
+
 #### Test Input 1
 ```bash
 python find_intersections.py --radians 0.78 1.47 1.77 3.92 --identifiers s1 s2 e1 e2  
