@@ -29,6 +29,6 @@ Number of intersections found: 7
 Time Complexity: O(n*n) \
 Space Complexity: O(n)
 
-### Test Input 1 Visualization 
+### Test Input 2 Visualization 
 ![1](https://github.com/sakshamsds/find-chord-intersections/blob/main/find_intersections.png)
 
